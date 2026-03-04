@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VariedVeggie — Break out of your meal rut</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1d1d1f;
+            background: #fafafa;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 0 48px;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 27px;
+            background: linear-gradient(135deg, #ff9500, #ff6b00);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 56px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            font-size: 20px;
+            color: #6e6e73;
+            font-weight: 400;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 17px;
+            color: #424245;
+            padding: 32px 0 48px;
+            border-bottom: 1px solid #e5e5e7;
+        }
+
+        .features {
+            padding: 48px 0;
+            border-bottom: 1px solid #e5e5e7;
+        }
+
+        .features h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .feature {
+            padding: 0;
+        }
+
+        .feature-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .feature-desc {
+            font-size: 14px;
+            color: #6e6e73;
+        }
+
+        .privacy {
+            padding: 48px 0;
+            border-bottom: 1px solid #e5e5e7;
+        }
+
+        .privacy h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .privacy p {
+            font-size: 15px;
+            color: #424245;
+        }
+
+        .support {
+            padding: 48px 0;
+        }
+
+        .support h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .support p {
+            font-size: 15px;
+            color: #424245;
+        }
+
+        .support a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .support a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 0;
+            font-size: 13px;
+            color: #a1a1a6;
+            border-top: 1px solid #e5e5e7;
+        }
+
+        @media (max-width: 500px) {
+            header { padding: 48px 0 32px; }
+            h1 { font-size: 28px; }
+            .tagline { font-size: 17px; }
+            .feature-grid { grid-template-columns: 1fr; gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon" role="img" aria-label="VariedVeggie app icon">&#x1F966;</div>
+            <h1>VariedVeggie</h1>
+            <p class="tagline">Break out of your meal rut.</p>
+        </header>
+
+        <div class="description">
+            <p>VariedVeggie tracks what you've cooked and surfaces the ingredients you haven't used in a while. Pick a protein, a vegetable, and a carb &mdash; and get recipe ideas that actually make sense together.</p>
+        </div>
+
+        <section class="features">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="feature-title">Variety-first sorting</div>
+                    <div class="feature-desc">Ingredients you haven't eaten recently appear at the top. The ones you had yesterday sink to the bottom.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Cuisine matching</div>
+                    <div class="feature-desc">Proteins, vegetables, and carbs are grouped by cuisine so your combinations make sense.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Recipes &amp; prep ideas</div>
+                    <div class="feature-desc">Get suggestions for how to cook your chosen combo, or pick your own prep methods.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Surprise Me</div>
+                    <div class="feature-desc">Tap the dice for a random cuisine-matched meal when you can't decide.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">iCloud sync</div>
+                    <div class="feature-desc">Your meal history carries over to new devices automatically.</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">Vegan mode</div>
+                    <div class="feature-desc">Filter to plant-based proteins with a single toggle.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="privacy">
+            <h2>Privacy</h2>
+            <p>No account required. No ads. No tracking. Your data stays on your device and in your private iCloud container.</p>
+        </section>
+
+        <section class="support" id="support">
+            <h2>Support</h2>
+            <p>Questions or feedback? Reach out at <a href="mailto:lili.martin@incept5.com">lili.martin@incept5.com</a></p>
+        </section>
+
+        <footer>
+            &copy; 2026 Incept5. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
