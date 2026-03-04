@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VariedVeggie — Break out of your meal rut</title>
+    <title>Varied Veggie - Break out of your meal rut</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -29,12 +29,14 @@
             width: 120px;
             height: 120px;
             border-radius: 27px;
-            background: linear-gradient(135deg, #ff9500, #ff6b00);
-            display: flex;
-            align-items: center;
-            justify-content: center;
             margin: 0 auto 24px;
-            font-size: 56px;
+            overflow: hidden;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         h1 {
@@ -149,13 +151,13 @@
 <body>
     <div class="container">
         <header>
-            <div class="app-icon" role="img" aria-label="VariedVeggie app icon">&#x1F966;</div>
-            <h1>VariedVeggie</h1>
+            <div class="app-icon"><img src="app-icon.png" alt="Varied Veggie app icon"></div>
+            <h1>Varied Veggie</h1>
             <p class="tagline">Break out of your meal rut.</p>
         </header>
 
         <div class="description">
-            <p>VariedVeggie tracks what you've cooked and surfaces the ingredients you haven't used in a while. Pick a protein, a vegetable, and a carb &mdash; and get recipe ideas that actually make sense together.</p>
+            <p>Varied Veggie tracks what you've cooked and surfaces the ingredients you haven't used in a while. Pick a protein, a vegetable, and a carb - and get recipe ideas that actually make sense together.</p>
         </div>
 
         <section class="features">
